@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Aura | Aura Noir</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/stiyle.css" />
+    <link rel="shortcut icon" href="/src/construcao-de-arquitetura-economica-de-conteineres-empilhados (2).png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar" id="topbar">
+        <div class="brand">Ipe Empreendimentos</div>
+        <nav class="nav-links" aria-label="Menu principal">
+          <a href="#hero">Início</a>
+          <a href="#build-sequence">Build Sequence</a>
+          <a href="#process">Processo</a>
+          <a href="#portfolio">Portfólio</a>
+          <a href="#about">Sobre</a>
+          <a href="#testimonials">Clientes</a>
+          <a href="#contact">Contato</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </header>
+
+      <main>
+        <section id="hero" class="hero-section">
+          <video class="hero-video" autoplay muted loop playsinline>
+            <source src="./assets/interior-dark-video.mp4" type="video/mp4" />
+          </video>
+          <div class="hero-overlay"></div>
+          <div class="hero-copy">
+            <p class="eyebrow">Studio Ipe Empreendimentos</p>
+            <h1>Onde o luxo encontra a alma</h1>
+            <p class="hero-text">Uma experiência editorial para espaços residenciais e comerciais com design ousado, silencioso e sofisticado.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#portfolio">Ver Portfólio</a>
+              <a class="btn btn-ghost" href="#contact">Fale Conosco</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="build-sequence" class="section build-sequence">
+          <div class="build-sequence-shell">
+            <div class="build-sequence-video-wrap">
+              <video id="buildVideo" muted playsinline preload="auto">
+                <source src="./assets/video-camadas.mp4" type="video/mp4" />
+                Seu navegador não suporta vídeo.
+              </video>
+              <div class="build-sequence-overlay"></div>
+              <div class="build-sequence-texts">
+                <article class="build-text-block block-start">
+                  <span>01</span>
+                  <h3>Camadas de conceito</h3>
+                  <p>O projeto nasce em uma ideia forte que orienta materialidade, luz e atmosfera.</p>
+                </article>
+                <article class="build-text-block block-middle">
+                  <span>02</span>
+                  <h3>Curadoria sensorial</h3>
+                  <p>Os elementos são selecionados com cuidado para gerar uma narrativa contemporânea e atemporal.</p>
+                </article>
+                <article class="build-text-block block-end">
+                  <span>03</span>
+                  <h3>Entrega refinada</h3>
+                  <p>A transição entre conceito e espaço final é feita com precisão e respeito ao ritmo do cliente.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="process" class="section section-process">
+          <div class="section-intro">
+            <span class="section-label">Nossa Essência em 3 Etapas</span>
+            <h2>Conceito. Curadoria. Entrega.</h2>
+            <p>Cada projeto nasce de uma escuta atenta, cresce com seleção cuidadosa e se entrega com acabamento impecável.</p>
+          </div>
+
+          <div class="process-grid">
+            <div class="process-card">
+              <span>01</span>
+              <h3>Conceito</h3>
+              <p>Formulamos uma narrativa visual única que preserva identidade, conforto e a presença sensorial do espaço.</p>
+            </div>
+            <div class="process-card">
+              <span>02</span>
+              <h3>Curadoria</h3>
+              <p>Selecionamos materiais, objetos e mobiliário com foco em qualidade atemporal e detalhes que elevam o ambiente.</p>
+            </div>
+            <div class="process-card">
+              <span>03</span>
+              <h3>Entrega</h3>
+              <p>Coordenamos a execução com precisão e atenção, garantindo uma entrega onde cada elemento respira harmonia.</p>
+            </div>
+          </div>
+
+          <div class="process-video">
+            <video controls muted preload="metadata">
+              <source src="./assets/video-camadas.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </section>
+
+        <section id="portfolio" class="section section-portfolio">
+          <div class="section-intro">
+            <span class="section-label">Portfólio</span>
+            <h2>Projetos que respiram refinamento</h2>
+            <p>Uma curadoria de residências e espaços que exploram materiais nobres, iluminação escultural e proporções silenciosas.</p>
+          </div>
+
+          <div class="portfolio-grid">
+            <article class="project-card">
+              <span class="project-index">01</span>
+              <img src="./assets/projeto-sala.png" alt="Projeto sala de estar" />
+              <div class="project-copy">
+                <h3>Casa Sala</h3>
+                <p>Ambiente social com atmosfera intimista e detalhes artesanais.</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <span class="project-index">02</span>
+              <img src="./assets/projeto-cozinha.png" alt="Projeto cozinha" />
+              <div class="project-copy">
+                <h3>Cozinha de Assinatura</h3>
+                <p>Volumes escuros e superfícies suaves em um diálogo de textura e luz.</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <span class="project-index">03</span>
+              <img src="./assets/projeto-quarto.png" alt="Projeto quarto" />
+              <div class="project-copy">
+                <h3>Suite Íntima</h3>
+                <p>Refúgio contemporâneo com paleta acinzentada e sensação de aconchego.</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <span class="project-index">04</span>
+              <img src="./assets/projeto-biblioteca.png" alt="Projeto biblioteca" />
+              <div class="project-copy">
+                <h3>Biblioteca Privada</h3>
+                <p>Um espaço de leitura desenhado para contemplação e disciplina visual.</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <span class="project-index">05</span>
+              <img src="./assets/projeto-banheiro.png" alt="Projeto banheiro" />
+              <div class="project-copy">
+                <h3>Banho Residencial</h3>
+                <p>Banho com atmosfera de spa urbano e acabamentos sofisticados.</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <span class="project-index">06</span>
+              <img src="./assets/projeto-terracota.png" alt="Projeto terraço" />
+              <div class="project-copy">
+                <h3>Terraço Contemplativo</h3>
+                <p>Uma composição de vegetação, pedra e luz natural suave.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="about" class="section section-about">
+          <div class="about-grid">
+            <div class="about-copy">
+              <span class="section-label">Sobre</span>
+              <h2>Marina Vasconcelos</h2>
+              <p>Fundadora da Studio Aura, Marina desenha interiores que valorizam o silêncio, a proporção e o uso responsável de materiais de alto padrão.</p>
+              <p>Seu trabalho traduz a elegância discreta de São Paulo em ambientes que priorizam a experiência sensorial sem abrir mão da funcionalidade.</p>
+              <div class="about-meta">
+                <div>
+                  <strong>7+</strong>
+                  <span>Projetos entregues</span>
+                </div>
+                <div>
+                  <strong>Arquitetura</strong>
+                  <span>Interior design de alto padrão</span>
+                </div>
+              </div>
+            </div>
+            <div class="about-image" aria-hidden="true"></div>
+          </div>
+        </section>
+
+        <section id="testimonials" class="section section-testimonials">
+          <div class="section-intro">
+            <span class="section-label">Depoimentos</span>
+            <h2>O que nossos clientes dizem</h2>
+          </div>
+
+          <div class="testimonial-grid">
+            <article class="testimonial-card">
+              <p>“A Studio Aura transformou nosso apartamento em um espaço sereno, muito além de nossa expectativa. Cada detalhe foi pensado com sensibilidade.”</p>
+              <strong>— Laura M., cliente</strong>
+            </article>
+            <article class="testimonial-card">
+              <p>“A entrega foi impecável. O processo foi suave e a equipe soube traduzir nosso desejo por um universo mais sóbrio e sofisticado.”</p>
+              <strong>— Rafael S., empresário</strong>
+            </article>
+            <article class="testimonial-card">
+              <p>“A textura e a iluminação criaram uma atmosfera única. A atenção ao acabamento e à curadoria de materiais foi excepcional.”</p>
+              <strong>— Camila P., colecionadora</strong>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="section section-contact">
+          <div class="contact-shell">
+            <div>
+              <span class="section-label">Contato</span>
+              <h2>Vamos iniciar o próximo projeto?</h2>
+              <p>Fale diretamente com a equipe da Studio Aura e agende uma conversa para entender a essência do seu projeto.</p>
+            </div>
+
+            <form class="contact-form" action="#" novalidate>
+              <label>
+                <span>Nome</span>
+                <input type="text" name="name" placeholder="Seu nome" required />
+              </label>
+              <label>
+                <span>E-mail</span>
+                <input type="email" name="email" placeholder="seu@email.com" required />
+              </label>
+              <label>
+                <span>Mensagem</span>
+                <textarea name="message" rows="4" placeholder="Conte-nos sobre o seu projeto"></textarea>
+              </label>
+              <div class="contact-actions">
+                <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+                <a class="btn btn-ghost" href="https://wa.me/5511999999999" target="_blank" rel="noreferrer">Chamar no WhatsApp</a>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div>
+          <p>Studio Aura • São Paulo</p>
+          <p>© 2026 Studio Aura. Todos os direitos reservados.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Política de Privacidade</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
