@@ -642,6 +642,7 @@ button, input, textarea {
 
   .about-image {
     min-height: 280px;
+    margin-top: 10px;
   }
 
   .footer {
