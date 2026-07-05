@@ -213,10 +213,6 @@ button, input, textarea {
   background: transparent;
 }
 
-.section {
-  padding: 0.5rem 0;
-}
-
 .section-intro {
   max-width: 720px;
   margin-bottom: 3rem;
